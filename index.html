@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"> 
+        <title>Encriptador de texto</title>
+    </head>
+
+    <body>
+        <header>
+        </header>
+    
+        <main>
+            <textarea id="textoInicial" placeholder="Ingrese el texto aqui" required ></textarea>
+            <button onclick="encriptar();" class="container__boton">Encriptar</button>
+            <button onclick="desencriptar();" class="container__boton">Desencriptar</button>
+            <textarea id="textoConvertido" placeholder="Resultado" required ></textarea>
+            <button onclick="copiar();" class="container__boton" id="copiar" disabled>Copiar</button>
+        </main>
+        
+        <footer>
+        </footer>
+        <script src="app.js" defer></script>
+    </body>
+</html>
